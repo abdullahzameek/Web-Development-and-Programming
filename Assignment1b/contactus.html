@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <head>
+        <title>88Rising</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Slabo+27px&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <center><h1>88Rising</h1></center>
+        </header>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="joji.html">Joji</a>
+            <a href="richbrian.html">Rich Brian</a>
+            <a href="niki.html">Niki</a>
+            <a href="higherbrothers.html">Higher Brothers</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <hr>
+    
+    <form action="mailto:arz268@i6.cims.nyu.edu" method="get" class="form" >
+        <fieldset>
+                <legend>Survey Information</legend>
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname"><br>
+                <br>
+                Email:<br>
+                <input type="email" name="email"><br>
+                <br>
+                Date of Birth:<br>
+                <input type="date" name="dob"><br>
+                <br>
+                Age:<br>
+                <input type="number" min="1" max="140" name="age"><br>
+                <br>
+                Favorite Artist:<br>
+                <select>
+                        <optgroup label="Rap">
+                          <option value="richbrian">Rich Brian</option>
+                          <option value="higherbrothers">Higher Brothers</option>
+                        </optgroup>
+                        <optgroup label="R&B/Hiphop">
+                          <option value="niki">Niki</option>
+                          <option value="joji">Joji</option>
+                        </optgroup>
+                </select><br>
+                <br>
+                Why do you like that particular artist?<br>
+                <textarea type="text" name="artistreason"></textarea><br>
+                <br>
+                Rate your favorite artist out of 10:<br>
+                <input type="range" name="points" min="0" max="10">
+                <br>
+                Would you like to subscribe to updates?
+                <input type="button" name="subscribe" value="Subcribe">
+                
+                <br>
+                <br>
+                <input type="submit" value="Submit" class="sub">
+        </fieldset>
+        
+    </form>
+
+    <article>
+            <img class="image" src="images/88R.png">
+    </article>
+    
+</body>
+</html>

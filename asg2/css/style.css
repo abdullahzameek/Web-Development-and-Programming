@@ -1,0 +1,37 @@
+.button1 {
+    background-color: #d4c9c9; /* Green */
+    border: none;
+    color:black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+
+body, h1{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h1{
+    display: inline;
+}
+.h1Style{
+    border:  solid;
+}
+
+.win{
+    color:red;
+}
+
+#text1, #text2{
+    border: thick solid #000000;
+    padding : 20px 10px 10px 20px;
+    display:inline;
+}
+
+#img1, #img2, #img3{
+    height:400px;
+    width:auto;
+}

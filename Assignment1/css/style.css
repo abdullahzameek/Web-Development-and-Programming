@@ -1,0 +1,98 @@
+/*
+Abdullah Zameek
+
+CSS Style Sheet for Portfolio page.
+The media query structures were taken from W3Schools at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp for the sake of ensuring that they follow the common dimension standards
+
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    h1, p , h2{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color :#F5F5F5;
+    }
+    .topnav{
+        font-size: 36px
+    }
+    .marquee{
+        font-size: 36px
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+h1, p , h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color :	#F5F5F5;
+}
+.topnav{
+    font-size: 34px
+}
+.marquee{
+    font-size: 32px
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    h1, p , h2{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color :	#F5F5F5;
+    }
+    .topnav{
+        font-size: 32px
+    }
+    .marquee{
+        font-size: 30px
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    h1, p , h2{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color :	#F5F5F5;
+    }
+    .topnav{
+        font-size: 30px
+    }
+    .marquee{
+        font-size: 30px
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    h1, p , h2{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body{
+        background-color :	#F5F5F5;
+    }
+    .topnav{
+        font-size: 28px
+    }
+    .marquee{
+        font-size: 28px
+    }
+}

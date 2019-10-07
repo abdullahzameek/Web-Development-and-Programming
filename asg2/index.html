@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Roboto+Mono&display=swap" rel="stylesheet">
+        
+    </head>
+    <body id="body">
+        <br>
+        <br>
+        <center> <h1 id="h1Style" style='border:2px black solid;'>Style Application</h1></center>
+        <br>
+        <br>
+        <center><button class="button1" onclick="styleApplication()">Click me to Style Application!!</button></center>
+        <br>
+        <center><button class="button1" onclick="undoStyle()">Undo :(</button></center>
+        
+        <hr>
+
+        <center><div>Here is a list of gift coupons you can win ! : </div></center>
+        <br>
+        <center><button class="button1" onclick="pickFive()">Click me to see what you can win!</button></center>
+        <center><p id="list"></p></center>
+        <br>
+        <center><button class="button1" onclick="pickWinner()">Pick!</button></center>
+        <center><p id="win"></p></center>
+            
+        <hr>
+
+        <center><div>Swap Text </div></center>
+        <br>
+        <br>
+        <center><p id="text1" onclick="swapText()">This is the first block of text</p></center><br><br><br>
+        <center><p id="text2"onclick="swapText()">This is the second block of text</p></center>
+        <br>
+        <hr>
+
+        <center><div>Swap Images </div></center>
+        <br>
+        <br>
+        <center><img id="img1" src="img/cat.jpg" onclick="swapImage()"></center>
+        <br> 
+        <br>
+        <br>
+        <center><img id="img2" src="img/dog.jpg" onclick="swapImage()"></center>
+        <hr>
+
+        <br><center><div>Click on the dog!!!</div></center>
+        <center><img id="img3" src="img/dog1.jpg" onclick="newDoc()"></center>
+
+        <hr>
+        <center><div>Temperature Converter Application</div></center>
+        <br>
+        <center><p>(Hint: Start typing in celsius input field to get the output)</p></center><br>
+        <center>Celsius: <input type="number" id="input" oninput="convert()" onchange="convert()"></center><br>
+        <br>
+        <center>Farenheight: <textarea id="output"></textarea></center><br><br>
+        <script src="js/asg2.js"></script>
+    </body>
+</html>
