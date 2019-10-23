@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment 3</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Slabo+27px&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link
+    </head>
+    <body>
+        <header class="header">
+            <center><h1>Javascript Programs</h1></center>
+        </header>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active" >Random Image</a>
+            <a href="slideshow.html">Slide Show</a>
+            <a href="crapgame.html">Crap Game</a>
+            <a href="holiday.html">NYU Holidays</a>
+        </div>
+        <hr>
+    <br>
+    <br>
+
+    <center class="header">Welcome to the Crap Game</center>
+    <br>
+    <center><p>Enter a number (between 2 and 36):</p><input type="number" min="2" max="12" name="sum" id="diesum">&nbsp;<button onclick="rollDie()"class="button1">Roll The Die</button></center>
+    <br>
+    <center>
+    <div>
+    <img id="die1" src="imgs/blank.jpg" width="135" height="135">
+    <img id="die2" src="imgs/blank.jpg" width="135" height="135">
+    </div>
+    </center>
+    <br>
+    <center><p id="value"></p></center>
+    <center><p id="message"></p></center>
+    <script src="js/script.js"></script>
+    </body>
+</html>
+
