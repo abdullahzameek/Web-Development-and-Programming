@@ -1,3 +1,6 @@
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
 hr {
     border: 0;
     clear:both;
@@ -25,7 +28,7 @@ hr {
   display: block;
   color: #000000;
   text-align: center;
-  padding: 18px 120px;
+  padding: 25px 97px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'Nanum Gothic', sans-serif; 
@@ -72,6 +75,12 @@ hr {
     height: auto;  
 }
 
+.image1{
+  position: relative
+  width:100%;
+  max-width: 250px;
+  max-height:300px;
+}
 .form{
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -95,7 +104,32 @@ figcaption{
 
 fieldset{
     position: fixed;
-    width:50%;
+    width:10%;
+}
+
+#bigForm{
+  width: 70%;
+  height: 70%;
+  margin-left :15%;
+}
+
+#salesForm{
+  position: relative;
+  margin-left :-45%;
+  width:30%;
+  display: inline;
+}
+
+#salesForm2{
+  position: absolute;
+  margin-left :15%;
+  display: inline;
+  width:30%;
+}
+
+#subButton{
+  position: relative;
+  margin-left: 47%;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */

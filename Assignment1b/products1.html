@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>88Rising</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Slabo+27px&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <center><h1>88Rising</h1></center>
+        </header>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="joji.html">Joji</a>
+            <a href="richbrian.html">Rich Brian</a>
+            <a href="niki.html">Niki</a>
+            <a href="higherbrothers.html">Higher Brothers</a>
+            <a href="products.html">Products</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <hr>
+        <center>
+        <form id="frm1" action="#" onsubmit="display(); return false" method=post>
+                First name: <input type="text" name="FirstName" ><br>
+                Last name: <input type="text" name="LastName" ><br><br>
+              
+                Zipcode: <input type=number name="Zipcode"><p>
+                Email: <input type=email name="Email"><p>
+                Credit Card No: <input type=number name="CreditCardNo"><p>    
+        <fieldset id="salesForm">
+                <legend>T-Shirts</legend>
+                <center>T-Shirt</center>
+                <center><img class="image1" src="images/tshirt.png"></center>
+                <br>
+                <br>
+                <center><p id="tshirtName" name="TShirtName" value="Neon Dragon T-Shirt">Neon Dragon T-Shirt </p></center>
+                <br>
+                <br>
+                <center>Size:
+                <select name="TShirtSize">
+                        <optgroup label="Size">
+                          <option value="XS">XS</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </optgroup>
+                </select>
+                </center>
+                <br>
+                <br>
+                <center>Quantity:<br>
+                    <input id="tshirtQuantity" type="number" min="1" max="100" name="TShirtQuantity"><br>
+                </center>
+                <br>
+                <center>Price:$ <p id="tshirtPrice" style="display:inline">35</p></center>
+                <br>
+                <center><div id="tshirtResult" style="color: red;"></div></center>
+                <br>
+                <br>    
+        </fieldset>
+
+        <fieldset id="salesForm2">
+            <legend>Hoodies</legend>
+                <center>Hoodie</center>
+                <center><img class="image1" src="images/hoodie.png"></center>
+                <br>
+                <center><p id="hoodieName" name="HoodieName" value="Yellow Hoodie">Yellow Hoodie</p></center>
+                <br>
+                <br>
+                <center>Size:
+                <select name="hoodieSize">
+                        <optgroup label="Size">
+                          <option value="XS">XS</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </optgroup>
+                </select>
+                <br>
+                <br>
+                <center>Quantity:<br>
+                    <input  id="hoodieQuantity" type="number" min="1" max="100" name="HoodieQuantity"><br>
+                </center>
+                <br>
+                <br>
+                <center>Price:$ <p id="hoodiePrice" style="display:inline">50</p></center>
+                <br>
+                <center><div id="hoodieResult" style="color: red;"></div></center>
+                <br>
+                <br>    
+        </fieldset> 
+                <br>
+                <br>
+                <center>Delivery Method (Fixed fee of $15 to ship)
+                        <select name="DeliveryMethod">
+                                <optgroup label="Delivery Method">
+                                  <option value="Pickup">Pickup</option>
+                                  <option value="Ship">Ship</option>
+                                </optgroup>
+                        </select>
+                </center>           
+              
+              <p>
+              
+             <input type="submit" value="Submit" name=submit>
+              <input type="reset" value="Reset" name=cancel>
+              </form> 
+            </center>
+
+
+<hr color="#F00">
+
+<center>
+<p id="date" style= "color:red"></p>
+<p id="output" style="color:red"></p>
+<p id="grandTotal" style="color:red; font-size: 16px;"></p>
+</center>
+
+<script src="js/asg4.js"></script>
+</body>
+</html>
