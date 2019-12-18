@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+    <head>
+        <title>Apple</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Slabo+27px&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <header class="header">
+            <center><h1><a href=index.html>Apple</a></h1></center>
+
+            <button class="open-button" onclick="openRegForm()">Register</button>
+            <div class="form-popup" id="myRegForm">
+                <form action="register.php" class="form-container" method="POST">
+                  <h1>Register</h1>
+                    
+                  <label for="fullName"><b>Full Name</b></label>
+                  <input type="text" placeholder="Enter Full Name" name="regFName" required>
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="regEmail" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input id="regPsw" type="password" placeholder="Enter Password" name="regPsw" required>
+
+                  <label for="psw"><b>Re-enter Password</b></label>
+                  <input id="regPsw2" type="password" onchange="checkMatch()" placeholder="Re-enter Password" name="regPsw2"  required>
+              
+                  <button type="submit" class="btn">Register</button>
+                  <button class="btn cancel" onclick="closeRegForm()">Close</button>
+                </form>
+            </div>
+
+
+            <button class="open-button" onclick="openLoginForm()">Login</button>
+            <div class="form-popup" id="myLoginForm">
+                <form action="login.php" class="form-container" method="POST">
+                  <h1>Login</h1>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="loginEmail" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="loginPsw" required>
+
+                  <button type="submit" class="btn">Login</button>
+                  <button class="btn cancel" onclick="closeLoginForm()">Close</button>
+                  </form>
+            </div>
+
+            <form action="search.php" method="POST">
+                <input class="search-box" type="text" placeholder="Enter Search Query" name="searchQuery">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+
+
+        </header>
+        <hr>    
+    <br>
+    <br>
+    <body>  
+    <center>
+    <form action="shopping.php" id="shopping" method="POST">
+    <div class="content">
+
+        <div class="content-box">
+            <strong><p>iPhone</p></strong>
+            <p>$800</p>
+            <p>Apple's Flagship Smartphone</p>  
+            Quantity:<input type="number" name="iPhone" min="0" max="100" value="0">
+        </div>
+        
+        <div class="content-box">
+            <strong><p>Macbook</p></strong>
+            <p>$1800</p>
+            <p>Apple's Flagship Laptop</p>
+            Quantity:<input type="number" name="Macbook" min="0" max="100" value="0">
+        </div>
+        
+        <div class="content-box">
+            <strong><p>iPad</p></strong>
+            <p>$600</p>
+            <p>Apple's Flagship Tablet</p>
+            Quantity:<input type="number" name="iPad" min="0" max="100" value="0">
+        </div>
+    
+        <div class="content-box">	 
+            <strong><p>iPod<p></strong>
+            <p>$300</p>
+            <p>Apple's Flagship MusicPlayer</p>
+            Quantity:<input type="number" name="iPod" min="0" max="100" value="0">
+        </div>
+    
+        
+        <div class="content-box">	
+            <strong><p>Airpods<p></strong>
+            <p>$999</p>
+            <p>Flex</p>
+            Quantity:<input type="number" name="Airpods" min="0" max="100" value="0">
+        </div>
+        
+        <div class="content-box">	
+            <strong><p>AppleTV</p></strong>
+            <p>$800</p>
+            <p>Apple's Flagship TV(wut?)</p>
+            Quantity:<input type="number" name="AppleTV" min="0" max="100" value="0">
+        </div>
+    
+        <div class="content-box">	
+            <strong><p>iMac<p></strong>
+            <p>$7999</p>
+            <p>Apple's Flagship Desktop</p>
+            Quantity:<input type="number" name="iMac" min="0" max="100" value="0">
+        </div>
+        
+        <div class="content-box">	
+            <strong><p>Magsafe</p></strong>
+            <p>$150</p>
+            <p>Charge yo laptop</p>
+            Quantity:<input type="number" name="Magsafe" min="0" max="100" value="0">
+        </div>
+        
+        <div class="content-box">	
+            <strong><p>EarPods</p></strong>
+            <p>$50</p>
+            <p>Not so flex</p>
+            Quantity:<input type="number" name="Earpods" min="0" max="100" value="0">
+        </div>
+
+        <div class="content-box">	
+            <strong><p>HomePod</p></strong>
+            <p>$800</p>
+            <p>Very weird flex</p>
+            Quantity:<input type="number" name="Homepod" min="0" max="100" value="0">
+        </div>
+    </div>
+    <br>
+    First name: <input type="text" name="FirstName" ><br><br>
+    Last name: <input type="text" name="LastName" ><br><br>
+    Zipcode: <input type=number name="Zipcode"><p>
+    Email: <input type=email name="Email"><p>
+    Credit Card No: <input type=number name="CreditCardNo"><p>    
+    
+    <input class="sub" type="reset" value="Reset"><br>
+    <br>
+     <input class="sub" type="submit" value="Submit">
+    </form>
+    </center>   
+    </form>
+
+
+    <p id="demo" style="color:red"></p>
+
+    
+    <script src="js/shop.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>

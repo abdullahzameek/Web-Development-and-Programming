@@ -1,0 +1,10 @@
+iPhone:Apple's Flagship Smartphone:$800:100
+Macbook:Apple's Flagship Laptop:$1800:100
+iPad:Apple's Flagship Tablet:$600:100
+iPod:Apple's Flagship MusicPlayer:$300:100
+Airpods:Flex:$999:100
+AppleTV:Apple's Flagship TV(wut?):$800:100
+iMac:Apple's Flagship Desktop:$7999:100
+Magsafe:Charge yo laptop:$150:100
+Earpods:Not so flex:$150:100
+HomePod:weird flex:$800:100

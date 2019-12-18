@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment 3</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Slabo+27px&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link
+    </head>
+        <header class="header">
+            <center><h1>PHP Programs</h1></center>
+        </header>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active" >Mad Libs!</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="shopping.html">E-Shop</a>
+            <a href="quiz.html">Quiz</a>
+        </div>
+        <hr>
+    <br>
+    <br>
+
+    <center>
+    <form action="shopping.php" method="POST">
+     Enter your Name: <input type="text" name="fullName"> <br>
+     Enter your Email: <input type="email" name="email"> <br>
+     Select an snack:
+     <select name="item">
+             <optgroup label="item">
+               <option value="Cookies">Cookies ($2.00)</option>
+               <option value="Chips">Chips ($1.00)</option>
+               <option value="Chocolates">Chocolates ($3.00)</option>
+               <option value="Crackers">Crackers ($1.00)</option>
+             </optgroup>
+    <br>
+    How many do you wish to buy?: <input type="number" name="num"> <br>
+    <br>
+    <input type="reset" value="Reset" /><br>
+     <input type="submit">
+    </form>
+    </center>
+
+    </body>
+</html>
